@@ -7,8 +7,8 @@ export const Footer: React.FC = () => {
       {/* Subtle Background Pattern */}
       <div className="absolute inset-0 bg-pattern-scales opacity-[0.03] pointer-events-none"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 text-center md:text-left">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-8 text-center sm:text-left">
           
           {/* Brand */}
           <div className="space-y-6">
@@ -69,9 +69,9 @@ export const Footer: React.FC = () => {
 
         </div>
         
-        <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-stone-600 uppercase tracking-wider">
+        <div className="mt-10 sm:mt-12 lg:mt-16 pt-6 sm:pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center text-[10px] sm:text-xs text-stone-600 uppercase tracking-wider">
           <p>&copy; {new Date().getFullYear()} La Gran Muralla Express.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
+          <div className="flex space-x-4 sm:space-x-6 mt-3 sm:mt-0">
             <a href="#" className="hover:text-gold-400 transition-colors">Privacidad</a>
             <a href="#" className="hover:text-gold-400 transition-colors">Términos</a>
           </div>

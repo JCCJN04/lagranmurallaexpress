@@ -29,32 +29,32 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Content */}
-      <div className="relative h-full flex items-center justify-center text-center px-4 z-20">
-        <div className="max-w-5xl space-y-8">
-          <div className="animate-fade-in-up flex flex-col items-center gap-4">
-             <div className="h-16 w-[1px] bg-gradient-to-b from-transparent to-gold-400 mb-2"></div>
-             <span className="inline-block text-gold-400 tracking-[0.5em] uppercase text-xs md:text-sm font-bold py-1 px-4 border border-gold-400/30 bg-black/20 backdrop-blur-sm">
+      <div className="relative h-full flex items-center justify-center text-center px-4 sm:px-6 z-20">
+        <div className="max-w-5xl w-full space-y-6 sm:space-y-8">
+          <div className="animate-fade-in-up flex flex-col items-center gap-3 sm:gap-4">
+             <div className="h-10 sm:h-16 w-[1px] bg-gradient-to-b from-transparent to-gold-400 mb-1 sm:mb-2"></div>
+             <span className="inline-block text-gold-400 tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[10px] sm:text-xs md:text-sm font-bold py-1 px-3 sm:px-4 border border-gold-400/30 bg-black/20 backdrop-blur-sm">
               Desde 1998
             </span>
           </div>
           
-          <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.1] drop-shadow-2xl animate-fade-in-up [animation-delay:200ms]">
-            <span className="block text-stone-200 text-4xl md:text-6xl mb-2 font-normal tracking-wider">La Gran</span>
+          <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-[1.1] drop-shadow-2xl animate-fade-in-up [animation-delay:200ms]">
+            <span className="block text-stone-200 text-2xl sm:text-4xl md:text-6xl mb-1 sm:mb-2 font-normal tracking-wide sm:tracking-wider">La Gran</span>
             <span className="block bg-clip-text text-transparent bg-gradient-to-b from-gold-300 via-gold-400 to-gold-600 filter drop-shadow-lg">
               MURALLA
             </span>
           </h1>
           
-          <p className="font-serif text-lg md:text-2xl text-stone-300 max-w-2xl mx-auto italic leading-relaxed animate-fade-in-up [animation-delay:400ms]">
-            <span className="text-gold-400 text-3xl">"</span>
+          <p className="font-serif text-base sm:text-lg md:text-2xl text-stone-300 max-w-2xl mx-auto italic leading-relaxed animate-fade-in-up [animation-delay:400ms] px-2">
+            <span className="text-gold-400 text-2xl sm:text-3xl">"</span>
             Donde la tradición milenaria se encuentra con el sabor contemporáneo.
-            <span className="text-gold-400 text-3xl">"</span>
+            <span className="text-gold-400 text-2xl sm:text-3xl">"</span>
           </p>
           
-          <div className="pt-8 animate-fade-in-up [animation-delay:600ms] flex flex-col md:flex-row gap-4 justify-center">
+          <div className="pt-4 sm:pt-8 animate-fade-in-up [animation-delay:600ms] flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Link 
               to="/menu" 
-              className="group relative inline-flex items-center justify-center px-10 py-4 bg-imperial-900 text-white font-bold uppercase tracking-widest overflow-hidden transition-all hover:bg-imperial-800 shadow-lg shadow-imperial-900/50"
+              className="group relative inline-flex items-center justify-center px-6 sm:px-10 py-3 sm:py-4 bg-imperial-900 text-white font-bold uppercase tracking-wider sm:tracking-widest text-sm sm:text-base overflow-hidden transition-all hover:bg-imperial-800 shadow-lg shadow-imperial-900/50"
             >
               <div className="absolute inset-0 border border-white/10 group-hover:border-gold-400/50 transition-colors"></div>
               <span className="relative z-10 flex items-center">
@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
             </Link>
             <Link 
               to="/menu"
-              className="group relative inline-flex items-center justify-center px-10 py-4 bg-transparent text-gold-400 font-bold uppercase tracking-widest overflow-hidden transition-all hover:bg-gold-400/10 border border-gold-400/30 hover:border-gold-400"
+              className="group relative inline-flex items-center justify-center px-6 sm:px-10 py-3 sm:py-4 bg-transparent text-gold-400 font-bold uppercase tracking-wider sm:tracking-widest text-sm sm:text-base overflow-hidden transition-all hover:bg-gold-400/10 border border-gold-400/30 hover:border-gold-400"
             >
                <span className="relative z-10">Reservar</span>
             </Link>

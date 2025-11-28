@@ -36,20 +36,20 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-4 group">
+          <Link to="/" className="flex items-center space-x-2 sm:space-x-4 group flex-shrink-0">
             <div className="relative shrink-0">
               <div className="absolute inset-0 bg-gold-500 blur-md opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="relative bg-imperial-950 p-2.5 border border-gold-400/60 group-hover:border-gold-300 transition-colors rotate-45 shadow-xl">
-                <UtensilsCrossed className="h-5 w-5 md:h-6 md:w-6 text-gold-400 -rotate-45" />
+              <div className="relative bg-imperial-950 p-2 sm:p-2.5 border border-gold-400/60 group-hover:border-gold-300 transition-colors rotate-45 shadow-xl">
+                <UtensilsCrossed className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-gold-400 -rotate-45" />
               </div>
             </div>
             <div className="flex flex-col justify-center">
-              <span className="text-white font-display font-bold text-lg md:text-2xl tracking-widest leading-none group-hover:text-gold-300 transition-colors duration-300 drop-shadow-md">
+              <span className="text-white font-display font-bold text-sm sm:text-lg md:text-2xl tracking-wider sm:tracking-widest leading-none group-hover:text-gold-300 transition-colors duration-300 drop-shadow-md">
                 LA GRAN MURALLA
               </span>
-              <div className="flex items-center mt-1">
+              <div className="flex items-center mt-0.5 sm:mt-1">
                 <div className="h-[1px] w-4 bg-gold-500/50 hidden md:block mr-2"></div>
-                <span className="text-gold-400 text-[10px] md:text-xs tracking-[0.4em] uppercase font-bold drop-shadow-sm">Express</span>
+                <span className="text-gold-400 text-[8px] sm:text-[10px] md:text-xs tracking-[0.3em] sm:tracking-[0.4em] uppercase font-bold drop-shadow-sm">Express</span>
                 <div className="h-[1px] w-4 bg-gold-500/50 hidden md:block ml-2"></div>
               </div>
             </div>
